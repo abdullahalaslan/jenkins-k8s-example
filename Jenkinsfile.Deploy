@@ -4,7 +4,7 @@ pipeline {
       	cloud 'kubernetes'
       	label 'default'
       	defaultContainer 'jnlp'
-        yamlFile 'hellodocker.yaml'
+        yamlFile 'pod.yaml'
       }
     }
   stages {
