@@ -9,6 +9,7 @@ spec:
   containers:
   - image: harik8/hello-docker
     name: hello-docker
+    command: ["/bin/sh"]
     resources: {}
   dnsPolicy: ClusterFirst
   restartPolicy: Never
